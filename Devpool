@@ -95,7 +95,7 @@ void loop(char c[3][3], int dificultad, int jugadores)
 		j = ganador(c);
 
 		i++;
-	} while (i <= 9 && j == 2);
+	} while (i < 9 && j == 2);
 
 	system("cls");
 	tablero(c);
